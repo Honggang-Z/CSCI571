@@ -1,0 +1,131 @@
+.bookmark-color {
+  color: white;
+}
+
+.image-test{
+  /* display: inline-flex; */
+  width: 100%;
+  /* width: 310px;
+  height: 210px;
+  object-fit: cover; */
+}
+
+.title-description {
+  display: block;
+}
+
+.news-card-text:link, .news-card-text:hover, .news-card-text:active, .news-card-text:visited{
+  color: black;
+  text-decoration: none;
+}
+
+.description-section {
+  text-align: right;
+}
+
+/* .detail-text-description-hidden{ */
+.description-ellipsis{
+  word-wrap: break-spaces;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.detail-description-ellipsis{
+  word-wrap: break-spaces;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+}
+
+/* for section tab */
+.card-text span{
+  float: right;
+  /* justify-content: ;
+  justify-content: ;
+  text-align: ; */
+  /* align-content: ; */
+}
+
+/* badge colors */
+.badge-world {
+  color: #fff;
+  background-color: rgb(116, 86, 246);
+}
+.badge-politics {
+  color: white;
+  background-color: #39897d;
+}
+.badge-business {
+  color: #fff;
+  background-color: rgb(89, 150, 229);
+}
+.badge-technology {
+  color: #000000;
+  background-color: rgb(209, 218, 89);
+}
+.badge-sports {
+  color: #000000;
+  background-color: #f5ba3c;
+}
+.badge-any-other {
+  color: #fff;
+  background: #636a71;
+}
+.badge-guardian {
+  color: #fff;
+  background: rgb(16, 29, 58);
+  /* generic RGB */
+}
+.badge-nytimes {
+  color: #000000;
+  background: #d8d8d8;
+  /* Adobe RGB */
+}
+
+.share-content{
+
+}
+
+.share-content-share-via {
+  text-align: center;
+  justify-content: space-between;
+}
+
+.toast-text {
+  color: black !important; 
+}
+
+.spinner {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
+}
+
+.spinner-text {
+  margin: auto auto;
+}
+
+.bg-bggg {
+  background-image: linear-gradient(to right, #19243f, #4460aa) !important;
+}
+
+.active-test {
+  color: red;
+}
+
+.nac-bm-switch {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.small-card-border {
+  border: 1px solid #e4e4e4;
+}
